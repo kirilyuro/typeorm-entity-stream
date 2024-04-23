@@ -1,0 +1,29 @@
+{
+  "name": "typeorm-entity-stream",
+  "version": "0.0.0",
+  "description": "Unmarshalled entities streaming for TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilyuro/typeorm-entity-stream.git"
+  },
+  "keywords": [
+    "typeorm",
+    "nodejs",
+    "typescript",
+    "streaming"
+  ],
+  "author": "Kiril Yurovnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirilyuro/typeorm-entity-stream/issues"
+  },
+  "homepage": "https://github.com/kirilyuro/typeorm-entity-stream#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
