@@ -22,6 +22,8 @@ const dataSource = new DataSource({
     host: "localhost",
     port: 5432,
     database: "test",
+    username: "test",
+    password: "test",
     synchronize: true,
     logging: false,
     entities: [TestEntity]
