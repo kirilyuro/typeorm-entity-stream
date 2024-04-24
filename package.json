@@ -23,7 +23,7 @@
     "streaming"
   ],
   "author": "Kiril Yurovnik",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kirilyuro/typeorm-entity-stream/issues"
   },
