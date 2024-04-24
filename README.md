@@ -2,7 +2,7 @@
 [![NPM Version](https://img.shields.io/npm/v/typeorm-entity-stream)](https://www.npmjs.com/package/typeorm-entity-stream)
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/vknQo6eC53mwD54gA89Qd/9YavAuW9EYHYVmH5bSdupm/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/circleci/vknQo6eC53mwD54gA89Qd/9YavAuW9EYHYVmH5bSdupm/tree/main)
 
-Simple and lightweight entities streaming for [TypeORM](https://typeorm.io/).  
+Simple entities streaming for [TypeORM](https://typeorm.io/).  
 Provides a clean and simple streaming API by extending TypeORM's built-in raw streaming capabilities.
 
 ## Usage
