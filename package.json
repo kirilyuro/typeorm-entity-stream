@@ -1,6 +1,6 @@
 {
   "name": "typeorm-entity-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Unmarshalled entities streaming for TypeORM",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
