@@ -1,0 +1,37 @@
+version: 2.1
+orbs:
+  node: circleci/node@5
+jobs:
+  test-node:
+    # Install node dependencies and run tests
+    docker:
+      - image: cimg/node:lts
+      - image: cimg/postgres:14.0
+        environment:
+          POSTGRES_USER: test
+          POSTGRES_DB: test
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Run tests
+          command: npm run test --ci --runInBand
+  # build-node:
+  #   executor: node/default
+  #   steps:
+  #     - checkout
+  #     - node/install-packages:
+  #         pkg-manager: npm
+  #     - run:
+  #         command: npm run build
+  #     - run:
+  #         name: Create the ~/artifacts directory if it doesn't exist
+  #         command: mkdir -p ~/artifacts
+workflows:
+  build-and-test:
+    jobs:
+      - test-node
+      # - build-node:
+      #     requires:
+      #       - test-node
