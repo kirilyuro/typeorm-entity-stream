@@ -42,5 +42,8 @@
   },
   "dependencies": {
     "async-mutex": "^0.5.0"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.3.20"
   }
 }
